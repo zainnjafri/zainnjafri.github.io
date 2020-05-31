@@ -154,8 +154,7 @@ li {
 
 .schedulePage {
     background-image: url('https://i.imgur.com/D4ebjm8.jpg');
-    /*background-image: url("https://i.imgur.com/l5jLRQO.jpg");*/
-    background-size: 100%;
+    background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -209,7 +208,7 @@ td {
 
 .contactPage {
     background-image: url("https://i.imgur.com/uVJI4B0.jpg");
-    background-size: 100%;
+    background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
