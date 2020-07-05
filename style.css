@@ -4,8 +4,8 @@
         color: whitesmoke;
         font-size: 50px;
         font-family: 'Nunito', sans-serif;
-        padding-top: 230px;
-        padding-left: 200px;
+        padding-top: 15vw;
+        padding-left: 15vw;
         line-height: 0.0;
 }
 
@@ -19,23 +19,31 @@
  
 }
 
+h3 {
+    font-size: 4vw;
+}
 h4 {
-    font-size: 30px;
+    font-size: 2vw;
+
 }
 
 h5 {
-    font-size: 20px;
+    font-size: 1.3vw;
     font-style: italic;
+}
+
+p {
+    font-size: 1.3vw;
 }
 
 .aboutme {
     font-size: 40px;
     color: white;
-    padding-top: 15px;
-    padding-bottom: 50px;
-    padding-left: 200px;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 10vw;
     font-family: 'Nunito', sans-serif;
-    padding-right: 200px;
+    padding-right: 10vw;
     line-height: 1.4;
     background-color: rgb(4, 28, 41);
     letter-spacing: .1px;
@@ -46,12 +54,9 @@ body {
     margin: 0;
 }
 
-p {
-    font-size: 20px;
-}
 
 .location {
-    font-size: 15px;
+    font-size: 1vw;
     color: whitesmoke;
     text-align: right;
     font-family: 'Nunito', sans-serif;
@@ -65,13 +70,18 @@ p {
 
 footer {
     background-color: rgb(23, 23, 23);
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
     font-family: 'Nunito', sans-serif;
     text-align: center;
     font-size: 30px;
     color: white;
-    line-height: 10px;
+    line-height: 1vw;
+}
+
+.endingMessage {
+    padding-top: 1vw;
+    font-size: 1vw;
 }
 
 .linkedin {
@@ -79,10 +89,19 @@ footer {
     vertical-align: bottom;
 }
 
-.material-icons.email {
+.mail {
     color: white;
+}
+
+.mail:hover .envelope-o,
+.mail .envelope-open-o {
+    display: none;
     vertical-align: bottom;
-    font-size: 28px;
+}
+
+.mail:hover .envelope-open-o {
+    display: inline;
+    color: rgb(166, 166, 240);
 }
 
 .instagram {
@@ -94,18 +113,11 @@ footer {
     color: rgb(42, 120, 238);
 }
 
-.email:hover {
-    color: rgb(170, 170, 170);
-}
 
 .instagram:hover {
     color: rgb(202, 70, 70);
 }
 
-.endingMessage {
-    padding-top: 40px;
-    font-size: 12px;
-}
 
 /*header/top nav*/
 header {
@@ -117,7 +129,7 @@ ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    font-size: 20px;
+    font-size: 1.5vw;
     color: white;
     font-family: 'Nunito', sans-serif;
     text-decoration: none;
@@ -166,43 +178,51 @@ li {
     color: white;
     padding-top: 15px;
     padding-bottom: 50px;
-    padding-left: 200px;
+    padding-left: 10vw;
     font-family: 'Nunito', sans-serif;
-    padding-right: 200px;
+    padding-right: 10vw;
     line-height: 1.4;
 }
 
 table {
-    border-spacing: 10px;
+    border-spacing: 1vw;
     width: 100%;
 }
 
 th {
-    font-size: 25px;
+    font-size: 2vw;
     text-align: left;
     text-decoration: underline;
-    height: 75px;
+    height: 7vw;
     width: 33%;
 }
 
 td {
-    font-size: 20px;
+    font-size: 1.3vw;
     padding-right: 5px;
-    line-height: 10px;
-    height: 15px;
+    line-height: 1.5vw;
+    height: 1vw;
     
 }
 
 .courseName {
-    font-size: 15px;
+    font-size: 1vw;
     color: rgb(161, 161, 161);
 }
 
 .experience {
     color: rgb(74, 167, 62);
-    /*color: rgb(223, 172, 79);*/
 }
 
+.jessica {
+    font-size: 1vw;
+    color: whitesmoke;
+    text-align: right;
+    font-family: 'Nunito', sans-serif;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
 
 /*Contact Page*/
 
@@ -221,24 +241,14 @@ td {
     color: white;
     padding-top: 15px;
     padding-bottom: 50px;
-    padding-left: 200px;
+    padding-left: 10vw;
     font-family: 'Nunito', sans-serif;
-    padding-right: 200px;
+    padding-right: 10vw;
     line-height: 1.4;
 }
 
-.jessica {
-    font-size: 15px;
-    color: whitesmoke;
-    text-align: right;
-    font-family: 'Nunito', sans-serif;
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-}
-
 .zdenek {
-    font-size: 15px;
+    font-size: 1vw;
     color: whitesmoke;
     text-align: right;
     font-family: 'Nunito', sans-serif;
@@ -248,18 +258,29 @@ td {
 }
 
 .contactMe .instagram {
-    font-size: 40px;
+    font-size: 3vw;
 }
 
 .contactMe .linkedin {
-    font-size: 40px;
+    font-size: 3vw;
 }
 
-.contactMe .material-icons.email {
-    font-size: 40px;
+.contactMail {
+    color: white;
+    font-size: 175%;
+}
+
+.contactMail:hover .envelope-o,
+.contactMail .envelope-open-o {
+    display: none;
+    vertical-align: bottom;
+}
+.contactMail:hover .envelope-open-o {
+    display: inline;
+    color: rgb(166, 166, 240);
 }
 
 .contactMeIcons {
-    width: 400px;
+    width: 20vw;
 }
 
