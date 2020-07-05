@@ -3,7 +3,7 @@
 .intro{
         color: whitesmoke;
         font-size: 50px;
-        font-family: 'Nunito', sans-serif;
+        font-family: 'Roboto', sans-serif;
         padding-top: 15vw;
         padding-left: 15vw;
         line-height: 0.0;
@@ -22,6 +22,7 @@
 h3 {
     font-size: 4vw;
 }
+
 h4 {
     font-size: 2vw;
 
@@ -42,7 +43,7 @@ p {
     padding-top: 1vw;
     padding-bottom: 1vw;
     padding-left: 10vw;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-right: 10vw;
     line-height: 1.4;
     background-color: rgb(4, 28, 41);
@@ -59,7 +60,7 @@ body {
     font-size: 1vw;
     color: whitesmoke;
     text-align: right;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
     position: absolute;
     bottom: 8px;
     right: 16px;
@@ -72,7 +73,7 @@ footer {
     background-color: rgb(23, 23, 23);
     padding-top: 1vw;
     padding-bottom: 1vw;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 30px;
     color: white;
@@ -131,7 +132,7 @@ ul {
     list-style: none;
     font-size: 1.5vw;
     color: white;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     letter-spacing: .5px;
 }
@@ -179,7 +180,7 @@ li {
     padding-top: 15px;
     padding-bottom: 50px;
     padding-left: 10vw;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-right: 10vw;
     line-height: 1.4;
 }
@@ -218,7 +219,7 @@ td {
     font-size: 1vw;
     color: whitesmoke;
     text-align: right;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
     position: absolute;
     bottom: 8px;
     right: 16px;
@@ -242,7 +243,7 @@ td {
     padding-top: 15px;
     padding-bottom: 50px;
     padding-left: 10vw;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-right: 10vw;
     line-height: 1.4;
 }
@@ -251,7 +252,7 @@ td {
     font-size: 1vw;
     color: whitesmoke;
     text-align: right;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
     position: absolute;
     bottom: 8px;
     right: 16px;
