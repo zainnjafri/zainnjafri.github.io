@@ -4,7 +4,7 @@
         color: whitesmoke;
         font-size: 50px;
         font-family: 'Roboto', sans-serif;
-        padding-top: 15vw;
+        padding-top: 17vw;
         padding-left: 15vw;
         line-height: 0.0;
 }
@@ -40,8 +40,8 @@ p {
 .aboutme {
     font-size: 40px;
     color: white;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
     padding-left: 10vw;
     font-family: 'Roboto', sans-serif;
     padding-right: 10vw;
@@ -85,15 +85,6 @@ footer {
     font-size: 1vw;
 }
 
-.linkedin {
-    color: white;
-    vertical-align: bottom;
-}
-
-.mail {
-    color: white;
-}
-
 .mail:hover .envelope-o,
 .mail .envelope-open-o {
     display: none;
@@ -102,23 +93,7 @@ footer {
 
 .mail:hover .envelope-open-o {
     display: inline;
-    color: rgb(166, 166, 240);
 }
-
-.instagram {
-    color: white;
-    vertical-align: bottom;
-}
-
-.linkedin:hover {
-    color: rgb(42, 120, 238);
-}
-
-
-.instagram:hover {
-    color: rgb(202, 70, 70);
-}
-
 
 /*header/top nav*/
 header {
@@ -166,12 +141,14 @@ li {
 /*Schedule*/
 
 .schedulePage {
-    background-image: url('https://i.imgur.com/D4ebjm8.jpg');
+    background-image: url('https://i.imgur.com/hcRFxUW.jpg');
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center;
     overflow: auto;
+    
 }
 
 .scheduleDescription {
@@ -215,7 +192,7 @@ td {
     color: rgb(74, 167, 62);
 }
 
-.jessica {
+.jon {
     font-size: 1vw;
     color: whitesmoke;
     text-align: right;
@@ -240,7 +217,7 @@ td {
 .contactMe {
     font-size: 40px;
     color: white;
-    padding-top: 15px;
+    padding-top: 30px;
     padding-bottom: 50px;
     padding-left: 10vw;
     font-family: 'Roboto', sans-serif;
@@ -267,8 +244,11 @@ td {
 }
 
 .contactMail {
-    color: white;
     font-size: 175%;
+}
+
+.contactMe .github {
+    font-size: 3vw;
 }
 
 .contactMail:hover .envelope-o,
@@ -278,7 +258,6 @@ td {
 }
 .contactMail:hover .envelope-open-o {
     display: inline;
-    color: rgb(166, 166, 240);
 }
 
 .contactMeIcons {
