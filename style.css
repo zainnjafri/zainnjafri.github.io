@@ -236,19 +236,19 @@ td {
 }
 
 .contactMe .instagram {
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 .contactMe .linkedin {
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 .contactMail {
-    font-size: 175%;
+    font-size: 140%;
 }
 
 .contactMe .github {
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 .contactMail:hover .envelope-o,
