@@ -251,6 +251,10 @@ td {
     font-size: 2vw;
 }
 
+.contactMe .twitter {
+    font-size: 2vw;
+}
+
 .contactMail:hover .envelope-o,
 .contactMail .envelope-open-o {
     display: none;
